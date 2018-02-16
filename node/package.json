@@ -1,0 +1,33 @@
+{
+  "name": "nodejsversion",
+  "version": "1.0.0",
+  "description": "A simple FullCalendar.io project with NodeJS",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielMarcano/InteractuandoConBasesDeDatos.git"
+  },
+  "author": "Daniel Marcano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielMarcano/InteractuandoConBasesDeDatos/issues"
+  },
+  "homepage": "https://github.com/DanielMarcano/InteractuandoConBasesDeDatos#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "moment": "^2.19.2",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.0",
+    "mongoose-auto-increment": "^5.0.1",
+    "password-hash": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
